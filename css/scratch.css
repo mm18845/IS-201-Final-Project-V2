@@ -1,0 +1,95 @@
+/* General Styles */
+.common{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+.mainbody{
+    background-color: whitesmoke;
+}
+
+.footer{
+    position: fixed;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    line-height: 25px;
+}
+
+img{
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a{
+    color: #333;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover{
+    background-color: #CCC;
+}
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Centering everything */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center everything inside the container */
+    text-align: center;
+}
+
+/* List Styles */
+ol {
+    list-style: decimal outside;
+    padding-left: 5 em;
+    margin-left: 0;
+    text-align: left;  /* Keep numbers aligned with text */
+}
+
+ul {
+    list-style: disc outside;
+    padding-left: 1em;
+    margin-left: 0.5em;
+    text-align: left;  /* Keep bullets aligned with text */
+}
+
+ol > li {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+ol > li > ul {
+    list-style: disc outside;
+    margin-left: 20px; /* Indent bullet points slightly under the main list */
+    font-weight: normal;
+}
+
+
